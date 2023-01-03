@@ -23,7 +23,8 @@ public class MoneyCalculatorView extends javax.swing.JFrame {
     private javax.swing.JTextField textTwo;
     
 
-    public MoneyCalculatorView(ArrayList<Currency> currencies, ExchangeRateSet rates) {
+    public MoneyCalculatorView(ArrayList<Currency> currencies, 
+            ExchangeRateSet rates) {
         initComponents();
         componentLocation();
         setActionListener();
@@ -43,7 +44,7 @@ public class MoneyCalculatorView extends javax.swing.JFrame {
     }
     
     private void initComponents() {
-        textOne = new javax.swing.JTextField(10);
+        textOne = new javax.swing.JTextField(15);
         currencyOneComboBox = new javax.swing.JComboBox<>();
         currencyTwoComboBox = new javax.swing.JComboBox<>();
         jPanel1 = new javax.swing.JPanel();
@@ -51,19 +52,23 @@ public class MoneyCalculatorView extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
-        textTwo = new javax.swing.JTextField(10);
+        textTwo = new javax.swing.JTextField(15);
         calcular = new javax.swing.JButton("Calcular");
         jLabel1 = new javax.swing.JLabel("Intercambio de divisas");
     }
     
     private void setActionListener(){
         
-        currencyOneComboBox.addActionListener((java.awt.event.ActionEvent evt) -> {
-            String texto1 = currencies.get(currencyOneComboBox.getSelectedIndex()).getSymbol();
+        currencyOneComboBox.addActionListener(
+                (java.awt.event.ActionEvent evt) -> {
+            String texto1 = currencies.get(currencyOneComboBox
+                    .getSelectedIndex()).getSymbol();
         });
 
-        currencyTwoComboBox.addActionListener((java.awt.event.ActionEvent evt) -> {
-            String texto1 = currencies.get(currencyTwoComboBox.getSelectedIndex()).getSymbol();
+        currencyTwoComboBox.addActionListener(
+                (java.awt.event.ActionEvent evt) -> {
+            String texto1 = currencies.get(currencyTwoComboBox
+                    .getSelectedIndex()).getSymbol();
         });
 
         calcular.addActionListener((java.awt.event.ActionEvent evt) -> {
@@ -108,10 +113,12 @@ public class MoneyCalculatorView extends javax.swing.JFrame {
     private void calcularCambio() {
         double money = Double.parseDouble(textOne.getText());
             
-            double rate = rates.getRate(currencies.get(currencyOneComboBox.getSelectedIndex()),
+            double rate = rates.getRate(currencies.get(currencyOneComboBox.
+                    getSelectedIndex()),
                 currencies.get(currencyTwoComboBox.getSelectedIndex()));
         
             textTwo.setText(String.valueOf(money * rate));
+            
     }
 
     private void fillComboBoxes() {
