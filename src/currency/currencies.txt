@@ -1,0 +1,5 @@
+EUR,Euro,€
+USD,Dólar americano,$
+HKD,Dólar Hong Kong,$
+JPY,Yen Japones,¥
+GBP,Libra Reino Unido,£
