@@ -21,7 +21,7 @@ Los requisitos del proyecto, los cuales cumple son los siguientes:
 ## Ventana que se muestra al ejecutar
 ![Imagen al entrar](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/imagenes%20ejemplo/pred.png)
 
-## Conversión EUR-USD
+## Conversión EUR-HKD
 ![EUR USD](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/imagenes%20ejemplo/eur-dollar.png)
 
 ## Conversión JPY-GBP
