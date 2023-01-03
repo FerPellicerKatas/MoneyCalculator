@@ -22,7 +22,7 @@ Los requisitos del proyecto, los cuales cumple son los siguientes:
 ![Imagen al entrar](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/imagenes%20ejemplo/pred.png)
 
 ## Conversión EUR-HKD
-![EUR USD](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/imagenes%20ejemplo/eur-dollar.png)
+![EUR HKD](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/imagenes%20ejemplo/eur-hkd.png)
 
 ## Conversión JPY-GBP
 ![JPY GBP](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/imagenes%20ejemplo/yen-lib.png)
