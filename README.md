@@ -4,6 +4,8 @@
 
 Esta es una aplicación de cambio de moneda utilizando el estilo arquitectónico MVC.
 
+![Diagrama de clases](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/MoneyCalculator%20Diagrama%20de%20clases.png)
+
 ## Funcionalidad de la aplicación
 El proyecto cumple la siguiente función:
 1. Lee en pantalla la cantidad de dinero que deseas cambiar, elmoneda base y la moneda de destino.
