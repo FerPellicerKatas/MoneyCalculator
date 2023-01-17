@@ -4,6 +4,10 @@
 
 Esta es una aplicación de cambio de moneda utilizando el estilo arquitectónico MVC.
 
+El MVC (Modelo Vista Controlador) es un estilo arquitectónico que ayuda a la gestión del cambio. Al separar la representación de las entidades que la aplicación ha de manejar y sus relaciones de la interfaz de usuario.
+
+Se muestra a continuación el diagrama de clases
+
 ![Diagrama de clases](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/MoneyCalculator%20Diagrama%20de%20clases.png)
 
 ## Funcionalidad de la aplicación
