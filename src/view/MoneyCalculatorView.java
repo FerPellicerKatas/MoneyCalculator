@@ -10,6 +10,8 @@ public class MoneyCalculatorView extends javax.swing.JFrame {
     
     private final ArrayList<Currency> currencies;
     private final ExchangeRateSet rates;
+    
+    
     private javax.swing.JButton calcular;
     private javax.swing.JComboBox<String> currencyOneComboBox;
     private javax.swing.JComboBox<String> currencyTwoComboBox;
