@@ -8,7 +8,7 @@ El MVC (Modelo Vista Controlador) es un estilo arquitectónico que ayuda a la ge
 
 Se muestra a continuación el diagrama de clases
 
-![Diagrama de clases](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/MoneyCalculator%20Diagrama%20de%20clases.png)
+![Diagrama de clases](https://github.com/FerPellicerKatas/MoneyCalculator/blob/master/MoneyCalculator%20Diagrama%20Clases.png)
 
 ## Funcionalidad de la aplicación
 El proyecto cumple la siguiente función:
