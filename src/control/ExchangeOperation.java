@@ -19,7 +19,6 @@ public class ExchangeOperation {
     }
 
     public void execute() {
-        
         MoneyCalculatorView view = new MoneyCalculatorView(currencySet.getList(), rateSet);
     }
 
